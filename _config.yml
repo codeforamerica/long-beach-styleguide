@@ -8,9 +8,9 @@ permalink:           pretty
 relative_permalinks: false
 
 # Setup
-title:               "Phila.gov Patterns"
-url:                 http://cityofphiladelphia.github.io/patterns
-baseurl:             /patterns
+title:               "Long Beach Website Styleguide"
+url:                 http://lisaratner.github.io/long-beach-styleguide
+baseurl:             /long-beach-styleguide
 destination:        _site
 description:        The official Pattern Portfolio for phila.gov
 version:            1.4.0
