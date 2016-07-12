@@ -8,11 +8,11 @@ permalink:           pretty
 relative_permalinks: false
 
 # Setup
-title:               "Long Beach Website Styleguide"
+title:               "Accessibility Style Guide"
 url:                 http://lisaratner.github.io/long-beach-styleguide
 baseurl:             /long-beach-styleguide
 destination:        _site
-description:        The official Pattern Portfolio for phila.gov
+description:        The official Pattern Portfolio for LongBeach.gov
 version:            1.4.0
 exclude:            [
                       'package.json',

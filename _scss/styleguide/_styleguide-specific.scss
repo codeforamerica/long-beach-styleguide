@@ -23,7 +23,9 @@
 
 
 // Style Guide color swatches
-.sg-colors {
+.sg-colors,
+.sg-logos,
+.sg-icons {
   overflow: hidden;
   margin:0;
   padding:0;
@@ -50,7 +52,22 @@
       margin-right: 0.3em;
       margin-bottom: 0.2em;
     }
+  }
 
+  .icon-swatch {
+    display: block;
+
+    img {
+      display: block;
+      margin: 0 auto;
+      height: 100px;
+    }
+
+    @media all and (max-width: 40rem) {
+      float: left;
+      margin-right: 0.3em;
+      margin-bottom: 0.2em;
+    }
   }
 
   .sg-label {
