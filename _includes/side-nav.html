@@ -1,6 +1,5 @@
 <nav class="sticky" data-sticky data-anchor="main" data-sticky-on="large" data-margin-bottom="3" data-check-every="0" id="main-nav">
   <ul class="vertical menu" data-magellan>
-    <li class="h5">On this page</li>
     {% for type in site.data.types %}
       {% capture slug %}{{ type.name | slugify }}{% endcapture %}
       <li class="parent"><a href="#{{ slug }}"> {{ type.name }}</a>

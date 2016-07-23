@@ -53,6 +53,20 @@
       margin-bottom: 0.2em;
     }
   }
+  .img-swatch {
+    display: block;
+
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    @media all and (max-width: 40rem) {
+      float: left;
+      margin-right: 0.3em;
+      margin-bottom: 0.2em;
+    }
+  }
 
   .icon-swatch {
     display: block;
@@ -166,21 +180,6 @@
   }
 }
 
-#pattern-site-nav{
-  background: #96c9ff;
-
-}
-#pattern-site-nav.top-bar ul{
-  background: #96c9ff;
-  text-transform:uppercase;
-  color:#444;
-
-  ul {
-    padding:0;
-    margin:0;
-    background: rgba(255,255,255,.9);
-  }
-}
 
 .spacing-examples{
 

@@ -1,8 +1,6 @@
-- name: Typography
-- name: Grid
-- name: Containers
-- name: Forms
-- name: Navigation
-#- name: Media
-- name: Global
-- name: Helper Classes
+- name: Purpose
+- name: Content
+- name: Visual
+- name: User Testing
+- name: Resources
+# TODO: - name: Other

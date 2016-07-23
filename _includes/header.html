@@ -3,10 +3,10 @@
   <div class="row expanded">
     <div class="small-24 columns">
  <a href="http://alpha.phila.gov/" class="logo">
-        <img data-interchange="[https://lisaratner.github.io/long-beach-styleguide/images/CityOfLongBeachLogo48inx9in300dpi.png, small], [https://lisaratner.github.io/long-beach-styleguide/images/CityOfLongBeachLogo48inx9in300dpi.png, medium]" src="https://lisaratner.github.io/long-beach-styleguide/images/CityOfLongBeachLogo48inx9in300dpi.png" alt="City of Long Beach">
+        <img data-interchange="[{{ site.baseurl }}/images/CityOfLongBeachLogo48inx9in300dpi.png, small], [{{ site.baseurl }}/images/CityOfLongBeachLogo48inx9in300dpi.png, medium]" src="{{ site.baseurl }}/images/CityOfLongBeachLogo48inx9in300dpi.png" alt="City of Long Beach">
       </a>
       <h1 class="site-title">longbeach.bizport.gov/styleguide</h1><td>
-        
+
       </td>
       <h2 class="site-description">City of Long Beach</h2>
       <div class="page-title-container">
@@ -21,36 +21,7 @@
       <div class="title-bar" data-responsive-toggle="pattern-site-nav" data-hide-for="medium">
         <button class="menu-icon" type="button" data-toggle><span class="title-bar-title">Menu</span></button>
       </div>
-      <div class="top-bar" id="pattern-site-nav">
-        <nav>
-          <ul class="dropdown vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
-            {% for node in site.pages %}
-              {% if page.url == node.url %}
-                  {% if node.title != null %}
-                    <li class="active"><a href="{{node.url | prepend: site.baseurl}}" class="active">{{node.title}}</a></li>
-                  {% endif %}
-                {% else %}
-                  {% if node.title != null %}
-                    <li><a href="{{node.url | prepend: site.baseurl}}">{{node.title}}</a></li>
-                  {% endif %}
-                {% endif %}
-              {% endfor %}
 
-            <li>
-              <a href="#">Page Examples</a>
-              <ul class="submenu vertical menu" data-submenu>
-                {% for node in site.templates %}
-                  {% if page.url == node.url %}
-                    <li class="active"><a href="{{node.url | prepend: site.baseurl}}" class="active">{{node.title}}</a></li>
-                    {% else %}
-                    <li><a href="{{node.url| prepend: site.baseurl}}">{{node.title}}</a></li>
-                    {% endif %}
-                  {% endfor %}
-                </ul>
-              </li>
-            </ul>
-        </nav>
-      </div>
     </div>
   </div>
 </header>
