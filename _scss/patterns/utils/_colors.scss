@@ -73,15 +73,31 @@
 .sidewalk {
   color: $sidewalk;
 }
+.bg-gray {
+  background: $grey;
+}
 .bg-dark-gray{
   background: $dark-gray;
 }
 .bg-medium-gray{
   background: $medium-gray;
 }
+.bg-light-gray{
+  background: $light_grey;
+}
+.bg-extra-light-gray {
+  background: $extra_light_grey;
+}
 .bg-ghost-gray {
   background: $ghost-gray;
 }
 .bg-sidewalk {
   background: $sidewalk;
+}
+
+/*
+OTHER
+*/
+.bg-red {
+  background: $red;
 }
