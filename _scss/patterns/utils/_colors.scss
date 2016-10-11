@@ -3,6 +3,13 @@
 /*
   BRIGHTS
 */
+
+.darkest_blue { color: $darkest_blue; }
+.dark_blue { color: $dark_blue; }
+.medium_dark_blue { color: $medium_dark_blue; }
+.long_beach_blue { color: $long_beach_blue; }
+.light_blue { color: $light_blue; }
+
 .ben-franklin-blue {
   color: $ben-franklin-blue;
 }
@@ -24,6 +31,12 @@
 .white {
   color: $white;
 }
+
+.bg-darkest_blue { background: $darkest_blue; }
+.bg-dark_blue { background: $dark_blue; }
+.bg-medium_dark_blue { background: $medium_dark_blue; }
+.bg-long_beach_blue { background: $long_beach_blue; }
+.bg-light_blue { background: $light_blue; }
 .bg-ben-franklin-blue {
   background: $ben-franklin-blue;
 }

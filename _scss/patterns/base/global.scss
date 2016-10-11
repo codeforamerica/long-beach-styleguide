@@ -13,7 +13,8 @@ img {
 
 header {
   &.site-header {
-    background: $ben-franklin-blue;
+    background: #ffffff;
+    border-bottom: 1px solid $dark_grey;
 
     > .row:first-of-type{
       padding:1rem 0;
