@@ -9,11 +9,11 @@ relative_permalinks: false
 
 # Setup
 title:               "Accessibility Style Guide"
-url:                 http://lisaratner.github.io/long-beach-styleguide
+url:                 https://codeforamerica.github.io/long-beach-styleguide
 baseurl:             /long-beach-styleguide
 destination:        _site
 description:        The official Pattern Portfolio for LongBeach.gov
-version:            1.4.0
+version:            1.0.0
 exclude:            [
                       'package.json',
                       'Gruntfile.js',

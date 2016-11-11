@@ -11,8 +11,8 @@ The patterns CSS includes a customized 24-column grid version of Foundation 6.1.
 ### The bare minimum
 ```
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="//cityofphiladelphia.github.io/patterns/dist/1.4.0/css/patterns.css">
-<script type="text/javascript" src="//cityofphiladelphia.github.io/patterns/dist/1.4.0/js/patterns.min.js"></script>
+<link rel="stylesheet" href="//codeforamerica.github.io/patterns/dist/1.0.0/css/patterns.css">
+<script type="text/javascript" src="//codeforamerica.github.io/patterns/dist/1.0.0/js/patterns.min.js"></script>
 ```
 
 ## Local Setup
@@ -22,7 +22,7 @@ Phila.gov Patterns uses <a href="http://jekyllrb.com/">Jekyll</a> to generate pa
 2. Clone this repository
 3. cd into the patterns directory
 4. <code>$ jekyll serve</code>
-5. Navigate to <code>http://localhost:4000/patterns</code>
+5. Navigate to <code>http://localhost:4000/long-beach-styleguide</code>
 6. Run <code>$ grunt watch</code>
 
 
